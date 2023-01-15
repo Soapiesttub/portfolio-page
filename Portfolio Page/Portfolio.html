@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Jon's Website Portfolio</title>
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/general.css">
+        <link rel="stylesheet" href = "../webfonts/css/all.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+        <script src="/portfolio.js"></script>
+        
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href = "#top"><img class = "header-logo" src = 'Images/logo_transparent.png'></a>
+                <ul class = "header-list"> 
+                    <li class = "header-links"><a href="#about-me"> About Me. </a></li>
+                    <li class = "header-links"><a href="#projects"> Projects. </a></li>
+                    <li class = "header-links"><a href = "#skills"> Skills. </a></li>
+                    <li class = "header-links"><a> Contact Me.</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <h1> Welcome to my portfolio page.</h1>
+            <hr>
+            <section id = 'about-me'>
+                <h2> About Me </h2>
+                <p class = "about-me-para">
+                    Hi! I'm Jon Leyshon, I currently work as a speech and language therapy assistant in the National Health Service in the UK but am training to be a software engineer through the full stack engineer path on Codeacademy.
+                    <br>
+                    I have been practising software engineering for around a year and am loving every minute of it. If you would like to meet virtually to discuss a potential joint project then check out my contact me page and message me on github.
+
+                </p>
+                <img class = "personal-picture" src = "Images/jon.jpg">
+            </section>
+            <section id = "projects">
+                <h2> Projects </h2>
+                    <button class = "project-links" id = "wedding-button" onclick = "toggle()"> Wedding Websites </button>
+                    <p class="hidden1" id = "wedding-paragraph"> I have created a wedding website for a good friend's wedding. <br> This includes pictures of the dearly beloved, information on the big day such as the venue, date and time, and the overall agenda for the day. </p>
+                    <img class = "hidden1" id = "wedding-image" src ="Images/wedding-screenshot.jpg">
+                    <br>
+                    <button class = "project-links" id = "business-button" onclick = "toggle2 ()"> Business Websites</button>
+                    <p class ="projects-paragraph" id = "business-paragraph"> I have also created a business website for a local courier service in Didcot, Oxfordshire. This site allows users to gain some more information about the companies' servicces and allows customers to use the frontend and backend functionality to obtain an immediate quote of how much the required service would cost using this particular courier.</p>
+                    <img class = "hidden-img" id = "business-image" src = "Images/couriers-screenshot.jpg">
+                
+            </section>
+            <section id = "skills">
+                <h2> Skills </h2>
+                <div class = "icons-container">
+                <img class = "icons" src ='images/html5.svg'>
+                <img class = "icons" src ='images/css3-alt.svg'>
+                <img class = "icons" src ='images/square-js.svg'>
+                <img class = "icons" src ='images/git.svg'>
+                <img class = "icons" src ='images/github.svg'>
+                </div>
+            </section>
+
+            <footer>
+                <h3> Created by Jon Leyshon.</h3>
+            </footer>
+           
+        </main>
+    </body>
+</html>

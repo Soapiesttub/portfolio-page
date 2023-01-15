@@ -1,0 +1,46 @@
+ 
+ { border: 1px solid red;}
+header {
+    position:fixed;
+    z-index: 1;
+    background-color: #59606d;
+    width:100%
+}
+header img { 
+    width: 8em;
+    height:auto;
+    padding: 0 2em;
+}
+header nav {
+    display: flex;
+}
+header nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 100%;
+    list-style: none;
+    font-size: 1.5em
+}
+header nav li {
+    margin: 0 1em;
+    color: #9bd1d6;
+}
+
+a:link { 
+    text-decoration: none;
+    color:#9bd1d6
+}
+a:visited { 
+    text-decoration: none; 
+    color: #9bd1d6;
+
+}
+a:hover { 
+    background-color: white;
+    border-radius: 0.2em;
+     }
+
+a:active {
+    color:#59606d;
+}

@@ -1,0 +1,72 @@
+body {
+    font-family:roboto, sans serif
+    padding:0 10em;
+    background-color: #59606d;
+    color: #9bd1d6;
+}
+
+main {
+    padding:10em;
+}
+.personal-picture{
+    width: 20em;
+    border-radius: 5em;
+    padding-left: 2em;    
+    vertical-align: middle;
+}
+.about-me-para{
+    display: inline-block;
+     max-width: 70%;
+    height:auto;
+    text-align: center;
+    font-size: 1.5em;
+    padding: auto 1em;
+}
+.icons-container {
+    display: flex;
+    justify-content: space-around;
+}
+.icons {
+    width:2em;
+    height:auto;
+}
+section li {
+padding-left: 2rem;
+  background-image: url(/images/arrow-right-solid.svg);
+  background-position: 0 0;
+  background-size: 1rem 1rem;
+  background-repeat: no-repeat;
+}
+section {
+    padding: 2em 0;
+}
+footer {
+    margin-top: 10em;
+    text-align: center;
+    margin-bottom: 0;
+}
+
+p {
+    color: white;
+}
+
+#wedding-image, #business-image{
+    width: 40em;
+    margin:2em 0;
+    display: none;
+}
+#business-paragraph, #wedding-paragraph {
+    display:none;
+}
+.project-links { 
+    padding: 1em 2em;
+    font-size: 1em;
+    border-radius: 1em;
+    color: #59606d;
+    background-color: #9bd1d6;
+    font-weight: bold;
+}
+
+button { 
+    margin: 2em;
+}
